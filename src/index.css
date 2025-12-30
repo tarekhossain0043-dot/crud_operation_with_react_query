@@ -5,6 +5,8 @@
   --font-Montserrat: "Montserrat", sans-serif;
   --color-primary: #6c6c6c;
   --color-secondary: #feaf00;
+
+  --color-main: #feaf00;
   --gradient-primary: linear-gradient(to right, #e86873 0%, #eabec2 100%);
 }
 
@@ -13,12 +15,17 @@
   --color-primary: #6c6c6c;
   --color-secondary: #feaf00;
   --color-black: #000;
+
+  --color-main-clr: #feaf00;
 }
 
 body {
   font-size: 14px;
   font-weight: 400;
   color: var(--color-primary);
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 .login-page {
