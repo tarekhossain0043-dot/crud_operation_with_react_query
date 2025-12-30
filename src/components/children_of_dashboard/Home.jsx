@@ -3,7 +3,7 @@ import { courseUpdate } from "../../assets/assets";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-4 gap-5">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-5">
       {courseUpdate.map((item, index) => (
         <div
           key={index}

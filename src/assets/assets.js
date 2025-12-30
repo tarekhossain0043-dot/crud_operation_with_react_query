@@ -1,5 +1,7 @@
+import { AiOutlineDelete } from "react-icons/ai";
 import { BiDollar } from "react-icons/bi";
 import { CiBookmark, CiSettings, CiUser } from "react-icons/ci";
+import { FiEdit2 } from "react-icons/fi";
 import { GoHome } from "react-icons/go";
 import { LiaHandHoldingUsdSolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
@@ -74,5 +76,91 @@ export const courseUpdate = [
     bg: "#fff",
     gradient: "linear-to-r from-amber-400 to-amber-600",
     value: "1",
+  },
+];
+
+export const tableHead = [
+  {
+    id: 1,
+    label: "Name",
+  },
+  {
+    id: 2,
+    label: "Email",
+  },
+  {
+    id: 3,
+    label: "Phone",
+  },
+  {
+    id: 4,
+    label: "Enroll Number",
+  },
+  {
+    id: 5,
+    label: "Date of admission",
+  },
+];
+
+export const studentData = [
+  {
+    id: 1,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
+  },
+  {
+    id: 2,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
+  },
+  {
+    id: 3,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
+  },
+  {
+    id: 4,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
+  },
+  {
+    id: 5,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
+  },
+  {
+    id: 6,
+    img: "/admin-img.png",
+    name: "Karthi",
+    email: "karthi@gmmail.com",
+    phone: 7305477760,
+    enroll_num: 1234567305477760,
+    admissionData: new Date.now(),
+    icons: [FiEdit2, AiOutlineDelete],
   },
 ];
