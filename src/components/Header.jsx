@@ -17,7 +17,7 @@ export default function Header() {
             name="search"
             id="search"
             placeholder="search any.."
-            className="py-2.5 rounded-md px-4 cursor-pointer pr-8 outline-none border-slate-200 border focus:ring-1 ring-amber-200 text-black"
+            className="py-2.5 rounded-md border-slate-100 px-4 cursor-pointer pr-8 outline-none border-slate-200 border focus:ring-1 ring-amber-200 text-black"
           />
           <label
             htmlFor="search"

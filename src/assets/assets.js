@@ -110,7 +110,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
   {
@@ -120,7 +119,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
   {
@@ -130,7 +128,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
   {
@@ -140,7 +137,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
   {
@@ -150,7 +146,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
   {
@@ -160,7 +155,6 @@ export const studentData = [
     email: "karthi@gmmail.com",
     phone: 7305477760,
     enroll_num: 1234567305477760,
-    admissionData: new Date.now(),
     icons: [FiEdit2, AiOutlineDelete],
   },
 ];
